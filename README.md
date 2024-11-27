@@ -40,7 +40,6 @@ Use PineconeVectorStore to store the document embeddings in the Pinecone vector 
 Use the VectorStoreIndex from LlamaIndex to create a searchable index of the documents. This index uses the embeddings stored in Pinecone for efficient search and retrieval.
 6. Chat Engine Initialization
 Convert the index into a chat engine using index.as_chat_engine(). This engine handles user queries and retrieves relevant document chunks for formulating responses.
-7. Gradio Interface
-Define the respond_to_chat() function to interact with the chat engine. This function takes user input and returns the chatbot's response.
-Set up a Gradio interface (gr.Interface) to allow the user to interact with the system through a web interface.
-Launch the Gradio app to enable real-time communication with the chatbot.
+
+![WhatsApp Image 2024-11-26 at 22 42 48_9ae9e33b](https://github.com/user-attachments/assets/3a669689-c22b-46de-99eb-1c3eb20f6c4e)
+
