@@ -1,3 +1,6 @@
+
+![outputtt](https://github.com/user-attachments/assets/6e8d6fc2-58b0-40fd-80af-9172d7033b91)
+
 This repository demonstrates the implementation of a chatbot using Pinecone, LlamaIndex, and Gemini, designed to interact with a dataset (like a constitution) and provide insightful responses. The chatbot integrates large language models (LLMs) with an efficient vector search for rapid and accurate responses.
 
 Components Overview
@@ -41,5 +44,5 @@ Use the VectorStoreIndex from LlamaIndex to create a searchable index of the doc
 6. Chat Engine Initialization
 Convert the index into a chat engine using index.as_chat_engine(). This engine handles user queries and retrieves relevant document chunks for formulating responses.
 
-![WhatsApp Image 2024-11-26 at 22 42 48_9ae9e33b](https://github.com/user-attachments/assets/3a669689-c22b-46de-99eb-1c3eb20f6c4e)
+
 
